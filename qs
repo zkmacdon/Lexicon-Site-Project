@@ -1,0 +1,85 @@
+[33mcommit a725797a4dca1da8433394dedb49fb3bd5c8e1a3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Zaheer MacDonald <zkmacdon@gmail.com>
+Date:   Sun May 1 15:11:01 2022 -0400
+
+    updates
+
+[1mdiff --git a/Backend/lexiconsite/blog/__pycache__/__init__.cpython-38.pyc b/Backend/lexiconsite/blog/__pycache__/__init__.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..004dbaa[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/__pycache__/__init__.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/__pycache__/admin.cpython-38.pyc b/Backend/lexiconsite/blog/__pycache__/admin.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8485ecd[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/__pycache__/admin.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/__pycache__/apps.cpython-38.pyc b/Backend/lexiconsite/blog/__pycache__/apps.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..caa05ee[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/__pycache__/apps.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/__pycache__/models.cpython-38.pyc b/Backend/lexiconsite/blog/__pycache__/models.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5c49d4f[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/__pycache__/models.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/__pycache__/urls.cpython-38.pyc b/Backend/lexiconsite/blog/__pycache__/urls.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0df76bc[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/__pycache__/urls.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/__pycache__/views.cpython-38.pyc b/Backend/lexiconsite/blog/__pycache__/views.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8842f9c[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/__pycache__/views.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/migrations/__pycache__/0001_initial.cpython-38.pyc b/Backend/lexiconsite/blog/migrations/__pycache__/0001_initial.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dbc3e02[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/migrations/__pycache__/0001_initial.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/blog/migrations/__pycache__/__init__.cpython-38.pyc b/Backend/lexiconsite/blog/migrations/__pycache__/__init__.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a59dc9c[m
+Binary files /dev/null and b/Backend/lexiconsite/blog/migrations/__pycache__/__init__.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/db.sqlite3 b/Backend/lexiconsite/db.sqlite3[m
+[1mindex 25f996b..bd4b054 100644[m
+Binary files a/Backend/lexiconsite/db.sqlite3 and b/Backend/lexiconsite/db.sqlite3 differ
+[1mdiff --git a/Backend/lexiconsite/home/__pycache__/__init__.cpython-38.pyc b/Backend/lexiconsite/home/__pycache__/__init__.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e093f5c[m
+Binary files /dev/null and b/Backend/lexiconsite/home/__pycache__/__init__.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/home/__pycache__/admin.cpython-38.pyc b/Backend/lexiconsite/home/__pycache__/admin.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f4b684[m
+Binary files /dev/null and b/Backend/lexiconsite/home/__pycache__/admin.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/home/__pycache__/apps.cpython-38.pyc b/Backend/lexiconsite/home/__pycache__/apps.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..df98666[m
+Binary files /dev/null and b/Backend/lexiconsite/home/__pycache__/apps.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/home/__pycache__/models.cpython-38.pyc b/Backend/lexiconsite/home/__pycache__/models.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a3b3d0[m
+Binary files /dev/null and b/Backend/lexiconsite/home/__pycache__/models.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/home/__pycache__/urls.cpython-38.pyc b/Backend/lexiconsite/home/__pycache__/urls.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f3a70bc[m
+Binary files /dev/null and b/Backend/lexiconsite/home/__pycache__/urls.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/home/__pycache__/views.cpython-38.pyc b/Backend/lexiconsite/home/__pycache__/views.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c9bf6a2[m
+Binary files /dev/null and b/Backend/lexiconsite/home/__pycache__/views.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/home/migrations/__pycache__/__init__.cpython-38.pyc b/Backend/lexiconsite/home/migrations/__pycache__/__init__.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ea8f40d[m
+Binary files /dev/null and b/Backend/lexiconsite/home/migrations/__pycache__/__init__.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/lexiconsite/__pycache__/__init__.cpython-38.pyc b/Backend/lexiconsite/lexiconsite/__pycache__/__init__.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3dab2dd[m
+Binary files /dev/null and b/Backend/lexiconsite/lexiconsite/__pycache__/__init__.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/lexiconsite/__pycache__/settings.cpython-38.pyc b/Backend/lexiconsite/lexiconsite/__pycache__/settings.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c9ae278[m
+Binary files /dev/null and b/Backend/lexiconsite/lexiconsite/__pycache__/settings.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/lexiconsite/__pycache__/urls.cpython-38.pyc b/Backend/lexiconsite/lexiconsite/__pycache__/urls.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fb5ed35[m
+Binary files /dev/null and b/Backend/lexiconsite/lexiconsite/__pycache__/urls.cpython-38.pyc differ
+[1mdiff --git a/Backend/lexiconsite/lexiconsite/__pycache__/wsgi.cpython-38.pyc b/Backend/lexiconsite/lexiconsite/__pycache__/wsgi.cpython-38.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e8c5224[m
+Binary files /dev/null and b/Backend/lexiconsite/lexiconsite/__pycache__/wsgi.cpython-38.pyc differ
