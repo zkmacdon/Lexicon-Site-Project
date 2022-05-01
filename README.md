@@ -27,6 +27,6 @@ path\Backend $ .\venv\Scripts\activate
   </i>
   <br>
   <br>
-from there, you should be able to enter the site directory and begin to make additions/changes. The first step will be to 1) assess if we need more features for our blog post platform, and then 2) to begin trying to make a rudimentary version of the lexicon database to see if it is viable to do it ourselves.
+
 Because individual migrations performed will impact the overarching file structure withinn Backend, it is important to clone the repo and push to a separate branch which can then be merged to main, once a pull request is approved.
   
