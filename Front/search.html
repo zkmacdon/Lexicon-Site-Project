@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lexicon Search</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container"> <a class="navbar-brand navbar-logo" href="#">  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Search</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Contact</a> </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <center>
+            <div class = "search">
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrzTvbuucNcdOiIy?backgroundColor=purple&viewControls=on" 
+                        frameborder="0" onmousewheel="" width="100%" height="600" style="background: transparent; border: 1px solid #ccc;"></iframe>
+            </div>
+        </center>
+          
+        <script>
+            $(window).on("scroll",function () {
+
+            var bodyScroll = $(window).scrollTop(),
+                navbar = $(".navbar");
+
+            if(bodyScroll > 130){
+
+                navbar.addClass("nav-scroll");
+                $('.navbar-logo img').attr('src','images/logo-black.png');
+
+
+            }else{
+
+                navbar.removeClass("nav-scroll");
+                $('.navbar-logo img').attr('src','images/logo-white.png');
+
+            }
+
+            });
+
+            $(window).on("load",function (){
+
+
+
+            var bodyScroll = $(window).scrollTop(),
+            navbar = $(".navbar");
+
+            if(bodyScroll > 130){
+
+            navbar.addClass("nav-scroll");
+            $('.navbar-logo img').attr('src','images/logo-black.png');
+
+
+            }else{
+
+            navbar.removeClass("nav-scroll");
+            $('.navbar-logo img').attr('src','images/logo-white.png');
+
+            }
+
+            /* smooth scroll
+            -------------------------------------------------------*/
+            $.scrollIt({
+
+            easing: 'swing',      // the easing function for animation
+            scrollTime: 900,       // how long (in ms) the animation takes
+            activeClass: 'active', // class given to the active nav element
+            onPageChange: null,    // function(pageIndex) that is called when page is changed
+            topOffset: -63
+            });
+
+        });
+        </script>
+    </body>
+
+
+</html>
