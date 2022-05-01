@@ -1,7 +1,7 @@
 # Lexicon-Site-Project
 Hey all! This is where we will be storing the site files for the foreseeable future. The repository could do with some restructuring, but for the time being it should serve us just fine. The repository is currently split into 2 sections: the front end and the back end. 
 
-The front end file will contain all the files we interact with, and the backend will contain all the database content which is required even for the current blog application.
+The folder titled "Front" will contain all the front-end files we interact with, and the backend will contain all the database content which is required even for the current blog application.
 
 We will also likely be integrating with our hosting service through github, so performing that integration will be one of my personal goals for the winter break.
 
