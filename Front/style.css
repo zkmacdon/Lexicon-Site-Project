@@ -35,7 +35,7 @@ span, a {
 h1, h2, h3, h4, h5, h6 {
 	color: #151515;
 	font-weight: 700;
-	font-size: 50;
+	font-size: 50:
 	font-family: "Open Sans", sans-serif;
 	margin: 0;
 	padding-top: 20px;
@@ -94,7 +94,7 @@ h6 {
 	padding: 25;
 }
 .navbar .nav-item a {
-	color: #000000;
+	color: #ffffff;
 	font-weight: 400;
 }
 .navbar .nav-link {
@@ -118,7 +118,7 @@ h6 {
 	transition: all .4s ease;
 }
 .nav-scroll .navbar-nav > li > a {
-	color: rgb(248, 248, 248);
+	color: #333;
 }
 .nav-scroll .navbar-brand img {
 	-webkit-transform: scale(1.03) !important;
@@ -146,7 +146,7 @@ h6 {
     padding:290px 0px 170px;
 }
 .banner h1 {
-	color:#050404;
+	color:#ffffff;
     font-size: 75px;
 }
 .banner p {
@@ -173,7 +173,7 @@ h6 {
 .section-padding {
 	padding: 100px 0px;
 }
-.section-title {
+.section-title 
 	padding-bottom: 80px;
 }
 .section-title h3 {
@@ -279,7 +279,7 @@ h6 {
 	margin: 10px 0px;
 	position: relative;
 	padding-bottom: 14px;
-    color: black;
+    color: 
 }
 .icon-text h4:after {
 	content: '';
@@ -428,7 +428,4 @@ h6 {
       font-weight: 600;
     }
 }
-.search {
-	padding: 100px 0px;
-	margin-bottom: 0px;
-}
+
