@@ -3,9 +3,6 @@ Hey all! This is where we will be storing the site files for the foreseeable fut
 
 The folder titled "Front" will contain all the front-end files we interact with, and the backend will contain all the database content which is required even for the current blog application.
 
-We will also likely be integrating with our hosting service through github, so performing that integration will be one of my personal goals for the winter break.
-
-
 <h2>General Instructions</h2>
 Information specific to working with git can be found <a href = "https://docs.github.com/en/get-started/quickstart/hello-world">here.</a> <br>
 <i>note: in order to clone repositories now, you need an authentication token (if you are not logged in via github desktop, and are trying to clone from the command line).</i>
