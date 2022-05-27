@@ -51,7 +51,7 @@
   font-size: 0.875rem;
   letter-spacing: 0px;
   text-transform: uppercase;
-  margin: 27px 481px 0 auto;
+  margin: 22px 511px 0 auto;
   padding: 0;
 }
 
@@ -59,20 +59,12 @@
   white-space: nowrap;
   height: 32px;
   min-height: 16px;
-  width: 116px;
-  min-width: 68px;
-  margin: -32px auto 60px 454px;
+  width: 32px;
+  min-width: 16px;
+  margin: -27px auto 60px 507px;
 }
 
 .u-section-1 .u-icon-2 {
-  height: 100%;
-}
-
-.u-section-1 .u-icon-3 {
-  height: 100%;
-}
-
-.u-section-1 .u-icon-4 {
   height: 100%;
 }
 
@@ -88,7 +80,7 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: 281px;
+    margin-right: 311px;
   }
 }
 
@@ -102,7 +94,7 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: 61px;
+    margin-right: 91px;
   }
 }
 
@@ -136,6 +128,7 @@
 
   .u-section-1 .u-social-icons-1 {
     margin-bottom: 0;
+    margin-left: 454px;
   }
 }
 
