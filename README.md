@@ -26,4 +26,3 @@ path\Backend $ .\venv\Scripts\activate
   <br>
 
 Because individual migrations performed will impact the overarching file structure withinn Backend, it is important to clone the repo and push to a separate branch which can then be merged to main, once a pull request is approved.
-  
